@@ -22,11 +22,14 @@ torchsummary
 ```
 
 ## Usage
-You only run `DenseNet-BC-CIFAR10.ipynb`.
+You only run `DenseNet-BC-CIFAR10.ipynb`. 
+
+Or You can use Google Colab for free!! This is [colab link](https://colab.research.google.com/drive/1cIOnl5Y3LLK1KrpySokVYJmYLVrkrrW7)
+
 For training, testing, i used `CIFAR-10` Dataset.
 
 ## Paper Review & Code implementation Blog Posting (Korean Only)
-[“DenseNet Tutorial [1] Paper Review & Implementation details”](https://hoya012.github.io/blog/DenseNet-Tutorial-1/)
+[“DenseNet Tutorial [1] Paper Review & Implementation details”](https://hoya012.github.io/blog/DenseNet-Tutorial-1/)  
 [“DenseNet Tutorial [2] PyTorch Code Implementation”](https://hoya012.github.io/blog/DenseNet-Tutorial-2/)
 
 ## DenseBlock and other blocks impelemtation.
