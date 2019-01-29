@@ -12,8 +12,8 @@ For simplicity, i write codes in `ipynb`. So, you can easliy test my code.
 * hoya012
 
 ## Requirements
-Python 3.5
 ```
+python=3.5
 numpy
 matplotlib
 torch=1.0.0
