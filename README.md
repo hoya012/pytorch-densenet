@@ -1,2 +1,2 @@
 # pytorch-densenet
-Simple Code Implementation of "MobileNet" architecture using PyTorch.
+Simple Code Implementation of "DenseNet" architecture using PyTorch.
