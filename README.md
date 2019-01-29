@@ -2,7 +2,7 @@
 Simple Code Implementation of ["DenseNet"](https://arxiv.org/pdf/1608.06993.pdf) architecture using PyTorch.
 
 
-![](https://github.com/hoya012/pytorch-MobileNet/blob/master/assets/1.PNG)
+![](https://github.com/hoya012/pytorch-densenet/blob/master/assets/1.PNG)
 
 For simplicity, i write codes in `ipynb`. So, you can easliy test my code.
 
@@ -60,7 +60,7 @@ class Transition_layer(nn.Sequential):
 ```
 
 ### DenseBlock
-![](https://github.com/hoya012/pytorch-MobileNet/blob/master/assets/2.png)
+![](https://github.com/hoya012/pytorch-densenet/blob/master/assets/2.png)
 ```
 class DenseBlock(nn.Sequential):
   def __init__(self, nin, num_bottleneck_layers, growth_rate, drop_rate=0.2):
@@ -72,4 +72,4 @@ class DenseBlock(nn.Sequential):
 ```
 
 ## DenseNet architecture for CIFAR-10
-![](https://github.com/hoya012/pytorch-MobileNet/blob/master/assets/3.png)
+![](https://github.com/hoya012/pytorch-densenet/blob/master/assets/3.png)
