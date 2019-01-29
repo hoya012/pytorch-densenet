@@ -24,7 +24,7 @@ torchsummary
 ## Usage
 You only run `DenseNet-BC-CIFAR10.ipynb`. 
 
-Or You can use Google Colab for free!! This is [colab link](https://colab.research.google.com/drive/1cIOnl5Y3LLK1KrpySokVYJmYLVrkrrW7)
+Or you can use Google Colab for free!! This is [colab link](https://colab.research.google.com/drive/1cIOnl5Y3LLK1KrpySokVYJmYLVrkrrW7)
 
 For training, testing, i used `CIFAR-10` Dataset.
 
