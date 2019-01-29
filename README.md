@@ -25,6 +25,10 @@ torchsummary
 You only run `DenseNet-BC-CIFAR10.ipynb`.
 For training, testing, i used `CIFAR-10` Dataset.
 
+## Paper Review & Code implementation Blog Posting (Korean Only)
+[“DenseNet Tutorial [1] Paper Review & Implementation details”](https://hoya012.github.io/blog/DenseNet-Tutorial-1/)
+[“DenseNet Tutorial [2] PyTorch Code Implementation”](https://hoya012.github.io/blog/DenseNet-Tutorial-2/)
+
 ## DenseBlock and other blocks impelemtation.
 In DenseNet, there are many DenseBlock. This is my simple implemenatation.
 
@@ -73,3 +77,5 @@ class DenseBlock(nn.Sequential):
 
 ## DenseNet architecture for CIFAR-10
 ![](https://github.com/hoya012/pytorch-densenet/blob/master/assets/3.png)
+
+The DenseNet architecture for CIFAR-10 differs from the architecture table presented in the paper. The DenseNet architecture applicable to CIFAR-10 is shown in the figure above.
