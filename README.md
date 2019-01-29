@@ -32,8 +32,10 @@ For training, testing, i used `CIFAR-10` Dataset.
 [“DenseNet Tutorial [1] Paper Review & Implementation details”](https://hoya012.github.io/blog/DenseNet-Tutorial-1/)  
 [“DenseNet Tutorial [2] PyTorch Code Implementation”](https://hoya012.github.io/blog/DenseNet-Tutorial-2/)
 
-## DenseBlock and other blocks impelemtation.
+
+## DenseBlock and other layers impelemtation.
 In DenseNet, there are many DenseBlock. This is my simple implemenatation.
+
 
 ### Bottleneck layer
 ```
