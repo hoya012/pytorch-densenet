@@ -11,7 +11,7 @@ For simplicity, i write codes in `ipynb`. So, you can easliy test my code.
 ## Contributor
 * hoya012
 
-## Requirements
+## 0. Requirements
 ```
 python=3.5
 numpy
@@ -21,21 +21,21 @@ torchvision
 torchsummary
 ```
 
-## Usage
+## 1. Usage
 You only run `DenseNet-BC-CIFAR10.ipynb`. 
 
 Or you can use Google Colab for free!! This is [colab link](https://colab.research.google).
 
-After download ipynb, upload to your google drive. and run!
+After downloading ipynb, just upload to your google drive. and run!
 
 For training, testing, i used `CIFAR-10` Dataset.
 
-## Paper Review & Code implementation Blog Posting (Korean Only)
+## 2. Paper Review & Code implementation Blog Posting (Korean Only)
 [“DenseNet Tutorial [1] Paper Review & Implementation details”](https://hoya012.github.io/blog/DenseNet-Tutorial-1/)  
 [“DenseNet Tutorial [2] PyTorch Code Implementation”](https://hoya012.github.io/blog/DenseNet-Tutorial-2/)
 
 
-## DenseBlock and other layers impelemtation.
+## 3. DenseNet and other layers impelemtation.
 In DenseNet, there are many DenseBlock. This is my simple implemenatation.
 
 
@@ -82,7 +82,7 @@ class DenseBlock(nn.Sequential):
           self.add_module('bottleneck_layer_%d' % i, bottleneck_layer(nin=nin_bottleneck_layer, growth_rate=growth_rate, drop_rate=drop_rate))
 ```
 
-## DenseNet architecture for CIFAR-10
+## 4. DenseNet architecture for CIFAR-10
 ![](https://github.com/hoya012/pytorch-densenet/blob/master/assets/3.png)
 
 The DenseNet architecture for CIFAR-10 differs from the architecture table presented in the paper. The DenseNet architecture applicable to CIFAR-10 is shown in the figure above.
