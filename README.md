@@ -40,7 +40,7 @@ In DenseNet, there are many DenseBlock. This is my simple implemenatation.
 
 
 ### Bottleneck layer
-```
+```python
 class bottleneck_layer(nn.Sequential):
   def __init__(self, nin, growth_rate, drop_rate=0.2):    
       super(bottleneck_layer, self).__init__()
@@ -61,7 +61,7 @@ class bottleneck_layer(nn.Sequential):
 ```
 
 ### Transition layer
-```
+```python
 class Transition_layer(nn.Sequential):
   def __init__(self, nin, theta=0.5):    
       super(Transition_layer, self).__init__()
@@ -72,7 +72,7 @@ class Transition_layer(nn.Sequential):
 
 ### DenseBlock
 ![](https://github.com/hoya012/pytorch-densenet/blob/master/assets/2.png)
-```
+```python
 class DenseBlock(nn.Sequential):
   def __init__(self, nin, num_bottleneck_layers, growth_rate, drop_rate=0.2):
       super(DenseBlock, self).__init__()
